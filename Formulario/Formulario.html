@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Preguntas</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <h1>Formulario de Preguntas</h1>
+
+    <div class="Cronometro" id="countdownElement" style="display: none;"></div>
+    
+    <form id="questionForm">
+      <h2>Preguntas</h2>
+      
+      <label for="q1"></label>
+      <input type="text" name="q1" required minlength="5"><br>
+      
+      <label for="q2"></label>
+      <input type="text" name="q2" required minlength="5"><br>
+      
+      <label for="q3"></label>
+      <input type="text" name="q3" required minlength="5"><br>
+      
+      <label for="q4"></label>
+      <input type="text" name="q4" required minlength="5"><br>
+      
+      <label for="q5"></label>
+      <input type="text" name="q5" required minlength="5"><br>
+
+      <label for="q5"></label>
+      <input type="text" name="q6" required minlength="5"><br>
+  
+      <button type="button" id="startButton">Iniciar Cuenta Regresiva</button>
+      <button type="submit" id="submitButton" disabled>Enviar Respuestas</button>
+      <button type="button" id="resetButton" disabled>Reiniciar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
